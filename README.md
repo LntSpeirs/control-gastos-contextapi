@@ -1,9 +1,10 @@
-# Control de gastos - React + TypeScript + Vite
+# Control de gastos - React + TypeScript + ContextAPI + useReducer + TailWindCSS
 
 Aplicacion para aprender a utilizar TypeScript y ContextAPI
 
 - React
 - Typescript
-- Hook useReducer
+- useReducer
+- useMemo
 - TailWindCSS
 - Context API

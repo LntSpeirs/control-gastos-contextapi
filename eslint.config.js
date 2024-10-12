@@ -30,7 +30,7 @@ export default tseslint.config(
       'space-before-blocks': ['error', 'always'],
       'no-redeclare': ['error'],
       'prefer-const': ['warn'],
-      'max-len': ['error', { code: 120 }],
+      'max-len': ['error', { code: 130 }],
       'space-infix-ops': ['error'],
       'no-console': ['warn'],
       'no-inner-declarations': ['error'],

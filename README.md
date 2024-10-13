@@ -19,3 +19,8 @@ Aplicacion para aprender a utilizar TypeScript y ContextAPI
 - Headless UI para crear la ventana modal de introducir gastos
 
 - HeroIcons
+
+- Biblioteca Datepicker: [Datepicker](https://www.npmjs.com/package/react-date-picker)
+- React-calendar: [React-calendar](https://github.com/wojtekmaj/react-calendar)
+
+- uuid para generar id únicos

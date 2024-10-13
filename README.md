@@ -27,3 +27,5 @@ Aplicacion para aprender a utilizar TypeScript y ContextAPI
 - uuid para generar id únicos
 
 - Libreria para agregar el efecto de arrastrar y soltar con las funcionalidades de editar y eliminar: [react-swipeable-list](https://www.npmjs.com/package/react-swipeable-list)
+
+- Persistencia de datos con localStorage

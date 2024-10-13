@@ -21,6 +21,9 @@ Aplicacion para aprender a utilizar TypeScript y ContextAPI
 - HeroIcons
 
 - Biblioteca Datepicker: [Datepicker](https://www.npmjs.com/package/react-date-picker)
+
 - React-calendar: [React-calendar](https://github.com/wojtekmaj/react-calendar)
 
 - uuid para generar id únicos
+
+- Libreria para agregar el efecto de arrastrar y soltar con las funcionalidades de editar y eliminar: [react-swipeable-list](https://www.npmjs.com/package/react-swipeable-list)

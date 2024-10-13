@@ -46,7 +46,9 @@ const ExpenseForm = () => {
     //Validación
     if (
       Object.values(expense).includes('') ||
-      Object.values(expense).includes(0)
+      Object.values(expense).includes(0) ||
+      expense.date === undefined ||
+      expense.date === null
     ) {
       //console.log('Error, algun campo está vacio');
       setError('Todos los campos son obligatorios');

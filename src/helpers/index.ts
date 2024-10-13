@@ -5,14 +5,13 @@ export function formatCurrency(amount: number) {
   }).format(amount);
 }
 
-export function formatDate(dateStr: string): string {
+export function formatDate(dateStr: string) : string {
   const dateObj = new Date(dateStr);
   const options : Intl.DateTimeFormatOptions = {
-    weekday:'long',
+    weekday: 'long',
     year: 'numeric',
-    month:'long',
+    month: 'long',
     day: 'numeric'
   };
-
   return new Intl.DateTimeFormat('es-ES', options).format(dateObj);
 }

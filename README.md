@@ -1,6 +1,6 @@
 # Control de gastos - React + TypeScript + ContextAPI + useReducer + TailWindCSS
 
-Aplicacion para aprender a utilizar TypeScript y ContextAPI
+Aplicacion para aprender a utilizar TypeScript y ContextAPI. Ver demo: [demo en netlify](https://controlgastos-context.netlify.app/)
 
 - React
 

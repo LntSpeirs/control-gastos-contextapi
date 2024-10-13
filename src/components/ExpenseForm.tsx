@@ -17,8 +17,9 @@ const ExpenseForm = () => {
   });
 
   const [error, setError] = useState('');
+  const [previousAmount, setPreviousAmount] = useState(0);
 
-  const { dispatch, state } = useBudget();
+  const { dispatch, state, remainingBudget } = useBudget();
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLSelectElement>
@@ -55,6 +56,12 @@ const ExpenseForm = () => {
       return;
     }
 
+    //validar que no me pase del presupuesto
+    if (expense.amount - previousAmount > remainingBudget) {
+      setError('Ese gasto se sale del presupuesto restante');
+      return;
+    }
+
     //Pasa la validación asi que guardamos o actualizamos el gasto
     if (state.editingId) {
       //Mirar si estamos editando
@@ -81,6 +88,7 @@ const ExpenseForm = () => {
         (currentExpense) => currentExpense.id === state.editingId
       )[0];
       setExpense(editingExpense);
+      setPreviousAmount(editingExpense.amount);
     }
   }, [state.editingId]);
 

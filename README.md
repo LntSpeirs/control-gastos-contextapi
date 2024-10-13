@@ -29,3 +29,5 @@ Aplicacion para aprender a utilizar TypeScript y ContextAPI
 - Libreria para agregar el efecto de arrastrar y soltar con las funcionalidades de editar y eliminar: [react-swipeable-list](https://www.npmjs.com/package/react-swipeable-list)
 
 - Persistencia de datos con localStorage
+
+- Grafica circular: [react-circular-progressbar](https://www.npmjs.com/package/react-circular-progressbar)
